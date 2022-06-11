@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:orientation="vertical"
+    android:weightSum="200"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+
+        />
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/nom"
+
+
+       />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+
+        />
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/prenom"
+
+
+       />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+
+        />
+ <TextView
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/address"
+
+
+     />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+
+        />
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/email"
+
+
+       />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+
+        />
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/telephone"
+
+
+       />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departement :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+        android:id="@+id/titledepartement"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/departement"
+
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="filiere :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+        android:id="@+id/titlefiliere"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filiere"
+
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+        android:id="@+id/titlegrade"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grade"
+
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Année d'inscription:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+
+android:id="@+id/titleanninc"
+        />
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/anneinsc"
+
+
+       />
+
+
+</LinearLayout>
